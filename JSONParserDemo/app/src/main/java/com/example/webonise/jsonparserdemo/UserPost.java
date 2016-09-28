@@ -17,6 +17,9 @@ public class UserPost {
     private String email;
     private String body;
 
+    public UserPost() {
+    }
+
     public int getPostId() {
         return postId;
     }

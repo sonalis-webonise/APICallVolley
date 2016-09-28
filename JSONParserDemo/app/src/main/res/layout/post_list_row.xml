@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:contentPadding="5dp"
+    android:layout_marginBottom="8dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardBackgroundColor="@color/colorCard">
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            style="@style/CodeFont"
+            android:id="@+id/txtpost"/>
+        <TextView
+            style="@style/CodeFont"
+            android:id="@+id/txtid"/>
+        <TextView
+            style="@style/CodeFont"
+            android:id="@+id/txtname"/>
+        <TextView
+            style="@style/CodeFont"
+            android:id="@+id/txtemail"/>
+        <TextView
+            style="@style/CodeFont"
+            android:id="@+id/txtbody"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
